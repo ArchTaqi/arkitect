@@ -1,0 +1,63 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="Sequencers" id="MDpbQI4lZOp4TAZBTKOt">
+    <mxGraphModel dx="1267" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bvisuhXBBB5M5OOW01N4-2" value="Sequencers, Provers &amp;amp; zkRollups" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bvisuhXBBB5M5OOW01N4-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="610" y="80" width="230" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bvisuhXBBB5M5OOW01N4-13" value="Verifier&lt;div&gt;Contract&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="680" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bvisuhXBBB5M5OOW01N4-15" value="Ethereum" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="610" y="80" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bvisuhXBBB5M5OOW01N4-20" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;fontFamily=Comic Sans MS;" edge="1" parent="1" source="bvisuhXBBB5M5OOW01N4-16" target="bvisuhXBBB5M5OOW01N4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bvisuhXBBB5M5OOW01N4-21" value="trx" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="bvisuhXBBB5M5OOW01N4-20">
+          <mxGeometry x="-0.291" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bvisuhXBBB5M5OOW01N4-16" value="chain" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="10" y="130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bvisuhXBBB5M5OOW01N4-19" value="" style="group;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="200" y="80" width="320" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bvisuhXBBB5M5OOW01N4-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="bvisuhXBBB5M5OOW01N4-19">
+          <mxGeometry width="320" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bvisuhXBBB5M5OOW01N4-3" value="Sequencer" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="bvisuhXBBB5M5OOW01N4-19">
+          <mxGeometry x="20" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bvisuhXBBB5M5OOW01N4-4" value="zK Prover" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="bvisuhXBBB5M5OOW01N4-19">
+          <mxGeometry x="180" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bvisuhXBBB5M5OOW01N4-11" value="zk Rollup" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=Comic Sans MS;" vertex="1" parent="bvisuhXBBB5M5OOW01N4-19">
+          <mxGeometry width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bvisuhXBBB5M5OOW01N4-28" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;block header&lt;/font&gt;&lt;div style=&quot;font-size: 10px; line-height: 70%;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;per-transaction state&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 70%;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;bridge&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 70%;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;consensus&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=Comic Sans MS;" vertex="1" parent="bvisuhXBBB5M5OOW01N4-19">
+          <mxGeometry x="120" y="140" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bvisuhXBBB5M5OOW01N4-22" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="bvisuhXBBB5M5OOW01N4-10" target="bvisuhXBBB5M5OOW01N4-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bvisuhXBBB5M5OOW01N4-31" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;In case of Single Node Sequencer&lt;/font&gt;&lt;div style=&quot;line-height: 100%; font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- the prover is trusting the sequencer&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 100%; font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- the prover only has to prove the transactions produce the correct state changes.&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 100%; font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- there is no check that the ordering of transactions (or blocks) is correct&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="200" y="280" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bvisuhXBBB5M5OOW01N4-32" value="Decentralized Sequencers" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="40" y="370" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bvisuhXBBB5M5OOW01N4-33" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Decentralized sequencer is a BFT blockchain.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;The zKProver can only trust blocks proposed by validators from the BFT blockchain.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="40" y="410" width="400" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
